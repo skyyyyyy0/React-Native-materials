@@ -6,7 +6,9 @@
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "allowJs": true,  // 이 줄 추가
+    "jsx": "react"    // JSX 파일을 React로 해석
   },
   "include": [
     "**/*.ts",
